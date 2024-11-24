@@ -11,7 +11,7 @@ import datetime
 import plotly.express as px
 
 st.title('Year End Rally: S&P 500 Index')
-spx = pd.read_excel("/Users/vitozaccardo/Desktop/spx.xlsx", index_col = 0)
+spx = pd.read_excel("spx.xlsx", index_col = 0)
 
 inizio = st.date_input(
         "Select a starting date",
