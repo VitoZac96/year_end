@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 import datetime
 import plotly.express as px
 
+import yfinance as yf 
+
 st.title('Year End Rally: S&P 500 Index')
 #spx = pd.read_excel("spx.xlsx", index_col = 0)
 spx = yf.download("^GSPC")
