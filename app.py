@@ -17,7 +17,7 @@ downloaded = yf.download("^GSPC")
 
 spx = pd.read_excel("sspx.xlsx", index_col = 0)
 
-spx = spx.append(downloaded["2024-11-22":]
+spx = spx.append(downloaded["2024-11-22":])
 
 
 inizio = st.date_input(
