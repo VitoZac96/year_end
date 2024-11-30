@@ -15,7 +15,7 @@ import yfinance as yf
 st.title('Year End Rally: S&P 500 Index')
 #downloaded = yf.download("^GSPC")
 
-spx = pd.read_excel("ssspx.xlsx", index_col = 0)
+spx = pd.read_excel("ssspxx.xlsx", index_col = 0)
 #spx = downloaded
 
 
