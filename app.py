@@ -81,7 +81,7 @@ df_plot.index = (pd.date_range("2024-9-30", "2024-12-31")).strftime('%d-%m-%Y')
 
 
 fig_interactive = px.line(df_plot,title='Value of 1$ invested on the 30th of september')
-fig_interactive.add_vline(x="25-11-2024", line_width=1, line_dash="dash", line_color="green")
+fig_interactive.add_vline(x="29-11-2024", line_width=1, line_dash="dash", line_color="green")
 #fig.add_vline(x = "25-11-2024")
 
 fig_interactive.update_layout(
